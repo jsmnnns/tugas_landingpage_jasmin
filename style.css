@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
+* { margin: auto;
+    padding: 0%;
+    font-family: "Chewy", system-ui;
+}
+
+nav {
+    background-color: #7FA1C3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    width: 20%;
+    display: flex;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content1 {
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.content1 h3 {
+    font-size: 40px;
+    color: #6482AD;
+    margin-bottom: 20px;
+}
+
+.content1 p {
+    font-size: 20px;
+    color: #6482AD;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 30;
+    right: 50px;
+}
